@@ -22,6 +22,5 @@ modules:
             restart: true
             capabilities:
                 goog:chromeOptions:
-                         args: [ "--headless", "--disable-gpu" ]
-       
+                         args: [ "--headless", "--disable-gpu" ] 
 step_decorators: ~       
