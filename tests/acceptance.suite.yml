@@ -20,5 +20,7 @@ modules:
             connection_timeout: 120
             pageload_timeout: 60
             restart: true
+                goog:chromeOptions:
+                         args: [ "--headless", "--disable-gpu" ]
        
 step_decorators: ~       
