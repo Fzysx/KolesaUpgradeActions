@@ -15,13 +15,11 @@ modules:
             host: localhost
             port: 9515
             browser: chrome
-            window_size: maximize
+            window_size: 1280*800
             request_timeout: 120
             connection_timeout: 120
             pageload_timeout: 60
-            restart: true
             capabilities:
                 goog:chromeOptions:
-                         args: ["--headless", "--no-sandbox", "--disable-gpu", "window-size=1920x1080"]
-                         binary: "/usr/bin/chromium" 
+                         args: ["--headless", "--no-sandbox", "--disable-gpu", "window-size=1920x1080"] 
 step_decorators: ~       
