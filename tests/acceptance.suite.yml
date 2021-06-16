@@ -22,5 +22,6 @@ modules:
             restart: true
             capabilities:
                 goog:chromeOptions:
-                         args: [ "--headless", "--disable-gpu" ] 
+                         args: ["--headless", "--no-sandbox", "--disable-gpu", "window-size=1920x1080"]
+                        binary: "/usr/bin/chromium" 
 step_decorators: ~       
